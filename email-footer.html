@@ -10,120 +10,195 @@ under Bielak-Systemy company
 -->
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, sans-serif;
+            font-size: 1.05em;
             margin: 0;
             padding: 0;
         }
+
         .signature-container {
-            width: 600px;
-            border-top: 2px solid #06b1ed;
+            max-width: 600px;
             padding: 10px 20px;
         }
-        .header {
-            font-size: 14px;
-            color: #003663;
-            margin-bottom: 10px;
+
+        table {
+            margin: 10px 0;
         }
+
+        p {
+            margin: 0 0 8px 0;
+        }
+
         .name {
-            font-size: 18px;
+            font-size: 1.4em;
             font-weight: bold;
             color: #003663;
         }
+
         .position {
-            font-size: 14px;
+            font-size: 1.05em;
             color: #003663;
             margin-bottom: 10px;
         }
-        .contact-info {
-            margin-bottom: 10px;
-        }
-        .contact-info a {
-            text-decoration: none;
-            color: #003663;
-        }
+
         .icons {
             margin: 10px 0;
         }
+
         .icons img {
             border-radius: 12px;
-            margin-right: 7px;
         }
+
+        .icons img:hover {
+            filter: brightness(120%);
+        }
+
         .footer {
             font-size: 12px;
             color: #101010;
             margin-top: 20px;
             line-height: 1.5;
         }
-        .logo-section {
-            margin-top: 10px;
-            text-align: left;
-        }
+
         .logo-section img {
-            width: 69px;
+            width: 100%;
             margin-right: 10px;
             /* vertical-align: middle; */
         }
-        .logo-section div {
-            display: inline-block;
+
+        .logo-section span {
+            font-size: .89em;
+            color: #102231;
         }
-        .logo-section .logo-name {
+
+        .logo-section h4 {
+            font-size: 1.18em;
+        }
+        
+        .logo-section h3 {
+            font-size: 1.87em;
+        }
+        
+        .logo-section h3,
+        .logo-section h4 {
             margin: 0;
-            display: inline-block;
-            font-size: 26px;
             font-weight: 800;
+            letter-spacing: 1px;
             color: #003663;
             vertical-align: middle;
         }
-        .logo-section .logo-name span {
-            font-size: 30px;
+
+        .logo-herb {
+            padding: 0 5px 0 0;
         }
+
+        hr {
+            border-color: #003663;
+        }
+
+        .hrcolor {
+            border-collapse: collapse;
+            width: 30%;
+            margin: 10px 0;
+        }
+
+        .hrcolor td {
+            height: 2px;
+            padding: 0;
+        }
+
+        .hrcolor .line1 {
+            border-color: #FFF300;
+        }
+
+        .hrcolor .line2 {
+            border-color: #003663;
+        }
+
+        .hrcolor .line3 {
+            border-color: #06B4EF;
+        }
+
     </style>
 </head>
+
 <body>
     <div class="signature-container">
-        <div class="header">Z pozdrowieniami</div>
+        <p>
+            Z wyrazami szacunku,
+        </p>
+        <table class="hrcolor">
+            <tr>
+                <td><hr class="line1"></td>
+                <td><hr class="line2"></td>
+                <td><hr class="line3"></td>
+            </tr>
+        </table>
+        <table>
+            <tr class="name">
+                <td>Imię i Nazwisko</td>
+            </tr>
+            <tr class="position">
+                <td>Stanowisko</td>
+            </tr>
+        </table>
 
-        <div class="name">Imię i Nazwisko</div>
-        <div class="position">Stanowisko</div>
+        <table class="contact-info">
+            <tr>
+                <td><img src="https://gryfow.pl/email-footer/tel.png" alt="Telefon:"></td>
+                <td>75 78 13 552 wewn. 124</td>
+            </tr>
+            <tr>
+                <td><img src="https://gryfow.pl/email-footer/mail.png" alt="E-mail:"></td>
+                <td>adres.email@gryfow.pl</td>
+            </tr>
+        </table>
+        <table class="icons">
+            <tr>
+                <td><a href="https://gryfow.pl" target="_blank" title="Przejdź do strony gryfow.pl"><img
+                    src="https://gryfow.pl/email-footer/www.png" alt="gryfow.pl"></a></td>
+                <td><a href="https://gryfow.pl" target="_blank" title="Przejdź do Biuletynu Informacji Publicznej"><img
+                    src="https://gryfow.pl/email-footer/bip.png" alt="BIP Gryfów"></a></td>
+                <td><a href="https://gminagryfowslaski.eboi.pl/" target="_blank"
+                title="Przejdź do Elektronicznego Biura Obsługi Interesanta"><img
+                    src="https://gryfow.pl/email-footer/eboi.png" alt="e-BOI"></a></td>
+            </tr>
+        </table>
+        <table class="logo-section">
+            <tr>
+                <td class="logo-herb">
+                    <img src="https://gryfow.pl/email-footer/gryfow-logo.png">
+                </td>
+                <td>
+                    <h4>Urząd Gminy i Miasta</h4>
+                    <h3>Gryfów Śląski</h3>
+                    <hr>
+                    <span>ul. Rynek 1, 59-620 Gryfów Śląski</span>
+                </td>
+            </tr>
+        </table>
 
-        <div class="contact-info">
-            <div>📞 75 78 13 552</div>
-            <div>📧 <a href="mailto:adres.email@gryfow.pl">adres.email@gryfow.pl</a></div>
-        </div>
-
-        <div class="icons">
-            <a href="https://gryfow.pl" target="_blank" title="Przejdź do strony gryfow.pl"><img src="https://gryfow.pl/email-footer/www.png" alt="gryfow.pl"></a>
-            <a href="https://gryfow.pl" target="_blank" title="Przejdź do Biuletynu Informacji Publicznej"><img src="https://gryfow.pl/email-footer/bip.png" alt="BIP Gryfów"></a>
-            <a href="https://gminagryfowslaski.eboi.pl/" target="_blank" title="Przejdź do Elektronicznego Biura Obsługi Interesanta"><img src="https://gryfow.pl/email-footer/eboi.png" alt="e-BOI"></a>
-        </div>
-
-        <div class="logo-section">
-            <div>
-                <img src="https://gryfow.pl/email-footer/gryfow-logo.png" alt="Herb Gryfów Śląski">
-            </div>
-            <div>
-                <h3 class="logo-name">Urząd Gminy i Miasta<br>
-                    <span>Gryfów Śląski</span>
-                </h3>
-                <hr>
-                <div class="logo-adress">ul. Rynek 1, 59-620 Gryfów Śląski</div>
-            </div>
-        </div>
-
-        <div class="footer">
-            Nadawcą korespondencji i jednocześnie administratorem Państwa danych osobowych jest Gmina Gryfów Śląski z siedzibą w Urzędzie Gminy
-            i Miasta Gryfów Śląski reprezentowana przez Burmistrza Gminy i Miasta Gryfów Śląski, ul. Rynek 1, 59-620 Gryfów Śląski, tel. +75 78 13 552,
-            e-mail: sekretariat@gryfow.pl Państwa dane osobowe przetwarzane są w celu prowadzenia niniejszej korespondencji i przez czas jej trwania.
-            Szczegółowe informacje na temat ochrony danych osobowych dostępne są w siedzibie Urzędu Gminy i Miasta Gryfów Śląski oraz na stronie internetowej
-            pod adresem: <a href="https://gryfow.pl/informacja-o-przetwarzaniu-danych-osobowych" target="_blank">https://gryfow.pl/informacja-o-przetwarzaniu-danych-osobowych</a>.
-        </div>
+        <p class="footer">
+            Nadawcą korespondencji i jednocześnie administratorem Państwa danych osobowych jest Gmina Gryfów Śląski z
+            siedzibą w Urzędzie Gminy
+            i Miasta Gryfów Śląski reprezentowana przez Burmistrza Gminy i Miasta Gryfów Śląski, ul. Rynek 1, 59-620
+            Gryfów Śląski, tel. +75 78 13 552,
+            e-mail: sekretariat@gryfow.pl Państwa dane osobowe przetwarzane są w celu prowadzenia niniejszej
+            korespondencji i przez czas jej trwania.
+            Szczegółowe informacje na temat ochrony danych osobowych dostępne są w siedzibie Urzędu Gminy i Miasta
+            Gryfów Śląski oraz na stronie internetowej
+            pod adresem: <a href="https://gryfow.pl/informacja-o-przetwarzaniu-danych-osobowych"
+                target="_blank">https://gryfow.pl/informacja-o-przetwarzaniu-danych-osobowych</a>.
+        </p>
     </div>
 </body>
+
 </html>
 
 
