@@ -1,5 +1,5 @@
-# email-footer-ugimgryfow
-Project link, always the newest version - https://github.com/DKFront/email-footer-ugimgryfow
+# emailsignature-ugimgryfow
+Project link, always the newest version - https://github.com/DKFront/emailsignature-ugimgryfow
 E-mail footer poject for UGIM Gryfów Śląski employees
 
 It was made to distrubte between UGIM emplyees to attach the file as footer/signature in mails.
@@ -9,7 +9,7 @@ Simply modify te imie_naziwsko-ugimgryfow-signature.html file with your data and
 mail client.
 
 # Live Preview template
-[Zobacz podgląd projektu / Check project preview](https://dkfront.github.io/email-footer-ugimgryfow/)
+[Zobacz podgląd projektu / Check project preview](https://dkfront.github.io/emailsignature-ugimgryfow/)
 
 
 # made by
